@@ -5,6 +5,7 @@ import {CssModule} from "./components/CssModule";
 import {StyledJSX} from "./components/Styled";
 import {StyledComponents} from "./components/StyledComponents";
 import {Emotion} from "./components/Emotion";
+import {TailwindCss} from "./components/TailwindCss";
 
 
 export const App = () => {
@@ -31,6 +32,7 @@ export const App = () => {
             <StyledJSX message="Styled Js"/>
             <StyledComponents title="Styled Components"/>
             <Emotion title="Emotion"/>
+            <TailwindCss title="Tailwind CSS"/>
         </>
     );
 }
