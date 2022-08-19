@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */ // ← 必須
 
-import {jsx, css} from "@emotion/react";
+import {css} from "@emotion/react";
 import styled from "styled-components";
 
 // npm install @emotion/react @emotion/styled
