@@ -5,10 +5,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
 import {createRoot} from "react-dom/client";
+import {AdminFlagProvider} from "./components/providers/AdminFlagProvider";
 
 const container = document.getElementById('root');
 const root = createRoot(container)
-root.render(<App/>)
+
+root.render(
+    <AdminFlagProvider>
+        <App/>
+    </AdminFlagProvider>
+)
+
 // ReactDOM.render(<App/>, document.getElementById('root'))
 
 // If you want to start measuring performance in your app, pass a function
